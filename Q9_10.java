@@ -13,10 +13,15 @@ public class Q9_10 {
 
 		ArrayList<String> daysOfWeek = new ArrayList<>(Arrays.asList
 				("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"));
-		
+		//	this one revereses the orders of the days in the arraylist
 		reverseString(daysOfWeek);
 		System.out.println(" ");
+		
+		//	this function reverses the String
 		System.out.println(reverseString(daysOfWeek.get(1)));
+		
+		//	this method reverses the Strings in the ArrayList and creates a new 
+		//	ArrayList with the reversed String elements
 		System.out.println(reverseList(daysOfWeek));
 	}
 	
