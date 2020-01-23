@@ -7,4 +7,5 @@ public class Q1_04 {
 	public static void main(String[] args) {
 		
 	}
+	
 }
