@@ -1,5 +1,8 @@
 package JavaInterviewQnA;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Q1_07 {
 
 //	 1_07 In fibonacci series, next number is the sum of previous two numbers 
@@ -8,6 +11,18 @@ public class Q1_07 {
 //		  Given a number num, print n-th Fibonacci Number.
 
 	public static void main(String[] args) {
+		int num =5;
 		
+		nthFibonacci(num);
+	}
+	public static void nthFibonacci(int num) {
+		
+		List<Integer> fibonacci = new ArrayList<>();
+		fibonacci.set(0, 0);
+		fibonacci.set(1, 1);
+		for(int i = 2; i < num; i++) {
+			fibonacci.set(i, (fibonacci.get(i-1) + fibonacci.get(i-2)));
+		}
+		System.out.println(fibonacci.get(num));
 	}
 }
