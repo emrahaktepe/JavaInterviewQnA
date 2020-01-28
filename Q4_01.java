@@ -7,5 +7,19 @@ public class Q4_01 {
 
 	public static void main(String[] args) {
 		
+		String text = "deneme";
+		
+		swapFirstAndLast(text);
+		
+	}
+	
+	public static void swapFirstAndLast(String str) {
+		
+		char first= str.charAt(0);
+		char last = str.charAt(str.length()-1);
+		
+		str = "" + last + str.substring(1, str.length()-1) + first;
+		
+		System.out.println(str);
 	}
 }
