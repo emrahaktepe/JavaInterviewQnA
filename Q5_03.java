@@ -7,5 +7,14 @@ public class Q5_03 {
 
 	public static void main(String[] args) {
 		
+		String hi = "hide behind hike shine whine hi";
+		int count = 0;
+		
+		for(int i = 0; i < hi.length()-1; i++){
+			if(hi.substring(i, i+2).equalsIgnoreCase("hi")) {
+				count++;
+			}
+		}
+		System.out.println(count);
 	}
 }
