@@ -1,6 +1,6 @@
 package JavaInterviewQnA;
 
-public class Q1_10 {
+public class Q1_10_FindRemainderWithoutMod {
 
 //	1_10. Write a method which finds remainder of 2 numbers without using the % operator?
 

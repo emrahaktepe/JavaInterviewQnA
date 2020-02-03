@@ -1,6 +1,6 @@
 package JavaInterviewQnA;
 
-public class Q1_09 {
+public class Q1_09_IsPrimeNumber {
 
 //	1_09 Create a method to check if the passing argument is a prime number
 

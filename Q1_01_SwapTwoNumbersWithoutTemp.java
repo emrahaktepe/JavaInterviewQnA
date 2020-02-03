@@ -1,6 +1,6 @@
 package JavaInterviewQnA;
 
-public class Q1_01 {
+public class Q1_01_SwapTwoNumbersWithoutTemp {
 
 //	1_01 Swap two variables' values without using temp variable
 

@@ -3,13 +3,13 @@ package JavaInterviewQnA;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q1_05 {
+public class Q1_05_FrequencyOfEachCharInString {
 
 //	1_05 Write a method which returns how many times each letter is repeated?
 
 	public static void main(String[] args) {
 		
-		System.out.println(countLetters("Ozkanayasfdsalkjfasfjlk;asjfla;sjfl;ajfta"));
+		System.out.println(countLetters("methodayasfdsalkjfasfjlk;asjfla;sjfl;ajfta"));
 				
 	}
 

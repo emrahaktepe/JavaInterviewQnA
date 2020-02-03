@@ -1,6 +1,6 @@
 package JavaInterviewQnA;
 
-public class Q1_06 {
+public class Q1_06_IsPalindrome {
 	
 //	1_06 A palindrome is a word, number, phrase, or other sequence of characters 
 //		 which reads the same backward as forward, such as madam or racecar or

@@ -1,6 +1,6 @@
 package JavaInterviewQnA;
 
-public class Q1_03 {
+public class Q1_03_ReverseSentence {
 
 //	1_03 Write a method where you reverse a sentence
 
